@@ -28,58 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.hockeybutton = new System.Windows.Forms.Button();
-            this.areabutton = new System.Windows.Forms.Button();
-            this.carpetbutton = new System.Windows.Forms.Button();
-            this.billbutton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.hockeyButton = new System.Windows.Forms.Button();
+            this.areaButton = new System.Windows.Forms.Button();
+            this.carpetButton = new System.Windows.Forms.Button();
+            this.billButton = new System.Windows.Forms.Button();
+            this.outputLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // hockeybutton
+            // hockeyButton
             // 
-            this.hockeybutton.Location = new System.Drawing.Point(31, 54);
-            this.hockeybutton.Name = "hockeybutton";
-            this.hockeybutton.Size = new System.Drawing.Size(146, 53);
-            this.hockeybutton.TabIndex = 0;
-            this.hockeybutton.Text = "Hockey";
-            this.hockeybutton.UseVisualStyleBackColor = true;
-            this.hockeybutton.Click += new System.EventHandler(this.hockeybutton_Click);
+            this.hockeyButton.Location = new System.Drawing.Point(31, 54);
+            this.hockeyButton.Name = "hockeyButton";
+            this.hockeyButton.Size = new System.Drawing.Size(146, 53);
+            this.hockeyButton.TabIndex = 0;
+            this.hockeyButton.Text = "Hockey";
+            this.hockeyButton.UseVisualStyleBackColor = true;
+            this.hockeyButton.Click += new System.EventHandler(this.hockeyButton_Click);
             // 
-            // areabutton
+            // areaButton
             // 
-            this.areabutton.Location = new System.Drawing.Point(31, 139);
-            this.areabutton.Name = "areabutton";
-            this.areabutton.Size = new System.Drawing.Size(146, 53);
-            this.areabutton.TabIndex = 1;
-            this.areabutton.Text = "Area";
-            this.areabutton.UseVisualStyleBackColor = true;
+            this.areaButton.Location = new System.Drawing.Point(31, 139);
+            this.areaButton.Name = "areaButton";
+            this.areaButton.Size = new System.Drawing.Size(146, 53);
+            this.areaButton.TabIndex = 1;
+            this.areaButton.Text = "Area";
+            this.areaButton.UseVisualStyleBackColor = true;
+            this.areaButton.Click += new System.EventHandler(this.areaButton_Click);
             // 
-            // carpetbutton
+            // carpetButton
             // 
-            this.carpetbutton.Location = new System.Drawing.Point(31, 223);
-            this.carpetbutton.Name = "carpetbutton";
-            this.carpetbutton.Size = new System.Drawing.Size(146, 53);
-            this.carpetbutton.TabIndex = 2;
-            this.carpetbutton.Text = "Carpet";
-            this.carpetbutton.UseVisualStyleBackColor = true;
+            this.carpetButton.Location = new System.Drawing.Point(31, 223);
+            this.carpetButton.Name = "carpetButton";
+            this.carpetButton.Size = new System.Drawing.Size(146, 53);
+            this.carpetButton.TabIndex = 2;
+            this.carpetButton.Text = "Carpet";
+            this.carpetButton.UseVisualStyleBackColor = true;
+            this.carpetButton.Click += new System.EventHandler(this.carpetButton_Click);
             // 
-            // billbutton
+            // billButton
             // 
-            this.billbutton.Location = new System.Drawing.Point(31, 308);
-            this.billbutton.Name = "billbutton";
-            this.billbutton.Size = new System.Drawing.Size(146, 53);
-            this.billbutton.TabIndex = 3;
-            this.billbutton.Text = "Bill";
-            this.billbutton.UseVisualStyleBackColor = true;
+            this.billButton.Location = new System.Drawing.Point(31, 308);
+            this.billButton.Name = "billButton";
+            this.billButton.Size = new System.Drawing.Size(146, 53);
+            this.billButton.TabIndex = 3;
+            this.billButton.Text = "Bill";
+            this.billButton.UseVisualStyleBackColor = true;
+            this.billButton.Click += new System.EventHandler(this.billButton_Click);
             // 
-            // label1
+            // outputLabel
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(210, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(476, 307);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.outputLabel.BackColor = System.Drawing.Color.White;
+            this.outputLabel.Location = new System.Drawing.Point(210, 54);
+            this.outputLabel.Name = "outputLabel";
+            this.outputLabel.Size = new System.Drawing.Size(476, 307);
+            this.outputLabel.TabIndex = 4;
             // 
             // Form1
             // 
@@ -87,11 +89,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(715, 397);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.billbutton);
-            this.Controls.Add(this.carpetbutton);
-            this.Controls.Add(this.areabutton);
-            this.Controls.Add(this.hockeybutton);
+            this.Controls.Add(this.outputLabel);
+            this.Controls.Add(this.billButton);
+            this.Controls.Add(this.carpetButton);
+            this.Controls.Add(this.areaButton);
+            this.Controls.Add(this.hockeyButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -100,11 +102,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button hockeybutton;
-        private System.Windows.Forms.Button areabutton;
-        private System.Windows.Forms.Button carpetbutton;
-        private System.Windows.Forms.Button billbutton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button hockeyButton;
+        private System.Windows.Forms.Button areaButton;
+        private System.Windows.Forms.Button carpetButton;
+        private System.Windows.Forms.Button billButton;
+        private System.Windows.Forms.Label outputLabel;
     }
 }
 
